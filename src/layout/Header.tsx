@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <nav id="home" className="flex justify-between fixed top-0 px-10 w-screen h-20 items-center">
+    <nav id="home" className="flex justify-between fixed top-0 px-10 w-screen h-20 items-center z-10">
       <div>
         <a href="#home" className="text-3xl">
           MCA
