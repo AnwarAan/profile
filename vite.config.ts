@@ -9,6 +9,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base:'/profile/'
+  base: "/profile/",
   server: { port: 3000 },
 });
