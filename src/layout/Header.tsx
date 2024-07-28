@@ -20,7 +20,7 @@ const Header = () => {
             </DropdownMenu.Trigger>
 
             <DropdownMenu.Portal>
-              <DropdownMenu.Content>
+              <DropdownMenu.Content className="bg-slate-100">
                 {header.map((item, i) => (
                   <DropdownMenu.Item key={i}>
                     <a className="mx-2 text-xl text-left" key={i} href={item.path}>

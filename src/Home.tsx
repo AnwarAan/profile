@@ -4,6 +4,7 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./layout/Footer";
+import Experience from "./components/Experience";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="md:w-4/5 mx-auto w-11/12 ">
         <Profile />
         <Skill />
+        <Experience />
         <Project />
         <Contact />
         <Footer />

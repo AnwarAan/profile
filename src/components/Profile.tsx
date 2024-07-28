@@ -3,14 +3,14 @@ import cv from "../assets/file/cv.pdf";
 
 const Profile = () => {
   return (
-    <div id="profile" className="mt-32 text-center">
+    <section id="profile" className="mt-32 text-center">
       <h1 className="text-4xl text-center mb-8">Profile</h1>
       <div>
         <img src={profile} alt="profile" className="w-32 flex mx-auto rounded-full" />
       </div>
       <p className="text-center my-8">
-        I have learned web development from several courses to attending bootcamps. I have several projects as a
-        portfolio
+        I'm we b developer. Fast Learner. I also learn the latest technologies related to the projects I work on. I can
+        communicate and work in a team well
       </p>
       <a
         href={cv}
@@ -19,7 +19,7 @@ const Profile = () => {
       >
         Click CV
       </a>
-    </div>
+    </section>
   );
 };
 
