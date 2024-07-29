@@ -116,7 +116,7 @@ export const Experiences = <T extends ReactNode>({
       <div className="flex justify-center space-x-2 text-base font-bold">
         <p>{moment(from).format("MMM Y")}</p>
         <p>-</p>
-        {until.getDay() === new Date().getDay() ? <p>Until Now</p> : <p>{moment(until).format("MMM Y")}</p>}
+        {until.getDate() === new Date().getDate() ? <p>Until Now</p> : <p>{moment(until).format("MMM Y")}</p>}
         <p>({moment(new Date(until).getTime() + new Date(86400000).getTime()).diff(from, "M")} month)</p>
       </div>
 
@@ -133,10 +133,8 @@ type PropsContact<T, U> = {
 
 export const Contacts = <T extends string, U extends ReactNode>({ link, icon }: PropsContact<T, U>) => {
   return (
-    <div className="flex justify-center h-72 items-center">
-      <a href={link} target="blank">
-        {icon}
-      </a>
-    </div>
+    <a href={link} target="blank">
+      {icon}
+    </a>
   );
 };

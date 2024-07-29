@@ -282,9 +282,9 @@ export const experienceset = [
   },
 ];
 
-export const contacset = [
-  { link: "mailto:name@email.com", icon: <BiLogoGmail size={80} /> },
-  { link: "https://www.instagram.com/mcnwr76/", icon: <AiFillInstagram size={80} /> },
-  { link: "https://www.linkedin.com/in/muchamad-choirul-anwar-aa4351211", icon: <AiFillLinkedin size={80} /> },
-  { link: "https://github.com/AnwarAan/", icon: <BiLogoGithub size={80} /> },
+export const contactset = [
+  { link: "mailto:name@email.com", icon: <BiLogoGmail size={"4rem"} /> },
+  { link: "https://www.instagram.com/mcnwr76/", icon: <AiFillInstagram size={"4rem"} /> },
+  { link: "https://www.linkedin.com/in/muchamad-choirul-anwar-aa4351211", icon: <AiFillLinkedin size={"4rem"} /> },
+  { link: "https://github.com/AnwarAan/", icon: <BiLogoGithub size={"4rem"} /> },
 ];
